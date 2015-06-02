@@ -1,0 +1,10 @@
+C:\Users\pc\AppData\Local\Temporary Projects\Samples\bin\Debug\Samples.exe
+C:\Users\pc\AppData\Local\Temporary Projects\Samples\bin\Debug\Samples.pdb
+C:\Users\pc\AppData\Local\Temporary Projects\Samples\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\pc\AppData\Local\Temporary Projects\Samples\obj\x86\Debug\Samples.exe
+C:\Users\pc\AppData\Local\Temporary Projects\Samples\obj\x86\Debug\Samples.pdb
+C:\Users\ITS4U WAQAR\Documents\Visual Studio 2010\Projects\Samples\Samples\obj\x86\Debug\Samples.exe
+C:\Users\ITS4U WAQAR\Documents\Visual Studio 2010\Projects\Samples\Samples\obj\x86\Debug\Samples.pdb
+C:\Users\ITS4U WAQAR\Documents\Visual Studio 2010\Projects\Samples\Samples\bin\Debug\Samples.exe
+C:\Users\ITS4U WAQAR\Documents\Visual Studio 2010\Projects\Samples\Samples\bin\Debug\Samples.pdb
+C:\Users\ITS4U WAQAR\Documents\Visual Studio 2010\Projects\Samples\Samples\obj\x86\Debug\Samples.csprojResolveAssemblyReference.cache

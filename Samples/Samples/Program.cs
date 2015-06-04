@@ -17,25 +17,27 @@ namespace Samples
             Console.Read();
 
             string str = "seo tutorials advanced";
-            string[] stopWords = { "i", "is", "a", "able", "about", "across", "after", "all", "almost", "also", "am", "among", "an", "and", "any", "are", "as", "at", "be", "because", "in" };
-            List<string> list = new List<string>();
+            //string[] stopWords = { "i", "is", "a", "able", "about", "across", "after", "all", "almost", "also", "am", "among", "an", "and", "any", "are", "as", "at", "be", "because", "in" };
+            string[] stopWords = { };
+            List<string> TokensList = new List<string>();
             string[] strArr = str.Split(Convert.ToChar(" "));
+            
             foreach (string strr in strArr)
             {
-                if (Array.IndexOf(stopWords, strr) == -1)
+                if(!stopWords.Contains(strr))
                 {
-                    list.Add(strr);
+                    TokensList.Add(strr);
                 }
             }
 
-            for (int i = 0; i < list.Count; i++ )
+            for (int i = 0; i < TokensList.Count; i++)
             {
-                for (int j = i; j < list.Count; j++)
+                for (int j = i; j < TokensList.Count; j++)
                 {
-                    string token = " ";
+                    string token = string.Empty;
                     for (int k = i; k <= j; k++)
                     {
-                        token = token + list[k];
+                        token = token + " " + TokensList[k];
                     }
                     Console.WriteLine(token);
                 }
@@ -60,6 +62,7 @@ namespace Samples
             // replace the spin-able word with spun word by matching it via regular expression
             string inputText = Regex.Replace(str, Regex.Escape("advanced"), synonyms["advanced"]);
             Console.WriteLine(inputText);
+            Console.Read();
             Console.Read();
 
             /*
